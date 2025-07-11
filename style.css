@@ -388,6 +388,13 @@ body {
   font-weight: 500;
   transition: color 0.3s ease;
 }
+.project-card a{
+    color: #facc15;
+  text-decoration: underline;
+  margin-right: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
 
 .project-links a:hover {
   color: #ffe95d;
