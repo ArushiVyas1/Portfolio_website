@@ -1,29 +1,36 @@
-🌐 Portfolio Website - Arushi Vyas
+**🌐 Portfolio Website - Arushi Vyas**
 
 This is a personal portfolio website built using HTML, CSS, and JavaScript. It showcases my projects, resume, technical skills, and background as a developer.
 
-🔎 Features
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
-1)Responsive design with a modern dark theme
 
-2)Smooth navigation between Home, About, Portfolio, and Resume sections
+**🔎 Features**
 
-3)Interactive buttons to view and download resume
+1)Responsive design with a modern dark theme.
 
-4)Showcases multiple projects with links to GitHub/live demos
+2)Smooth navigation between Home, About, Portfolio, and Resume sections.
 
-5)Timeline format for education and internship journey
+3)Interactive buttons to view and download .
 
-6)Social media integration for LinkedIn, Twitter, GitHub, and Instagram
+4)Showcases multiple projects with links to GitHub/live demos.
 
-7)Clean sidebar with contact details and role tags
+5)Timeline format for education and internship journey.
 
-🛠️ Tech Stack
+6)Social media integration for LinkedIn, X, GitHub, and Instagram.
+
+7)Clean sidebar with contact details and role tags.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+**🛠️ Tech Stack**
 HTML5
 
 CSS3
 
 JavaScript
 
-Font Awesome (for icons)
+Font Awesome (for icons like github,X,Instagram,LinkedIn)
+
 
