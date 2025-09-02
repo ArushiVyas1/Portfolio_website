@@ -15,7 +15,7 @@
     <!-- Sidebar -->
     <aside class="sidebar">
   <div class="avatar-container">
-    <img src="img" alt="Arushi Vyas" class="avatar-home" />
+    <img src="assets/img" alt="Arushi Vyas" class="avatar-home" />
   </div>
       <h1>Arushi Vyas</h1>
       <ul id="lists">
@@ -55,7 +55,7 @@
   
       <section id="home" class="home-section">
   <div class="avatar-container">
-    <img src="img" alt="Arushi Vyas" class="avatar-home" />
+    <img src="assets/img" alt="Arushi Vyas" class="avatar-home" />
   </div>
 
   <h1 class="headline">Arushi Vyas</h1>
@@ -70,13 +70,13 @@
   <div class="cta-buttons">
     <a href="#portfolio" class="btn-primary">See My Work</a>
     <!-- <button class="btn-primary" onclick="showSection('resume')">Resume</button> -->
-  <a href="arushiresume.pdf" download class="btn-primary download-btn">Download PDF</a>
+  <a href="assets/arushiresume.pdf" download class="btn-primary download-btn">Download PDF</a>
   </div>
 </section>
 
 
       <section id="about" class="about-section">
-  <h2 class="section-title">About Me</h2>
+  <h2 class="section-title"><u>About Me</u></h2>
 
   <p class="about-text">
     I'm Arushi Vyas, a Computer Science undergraduate with a minor in Marketing Management.  
@@ -117,8 +117,8 @@
       <p>Developed a dynamic web application that fetches real-time weather data using a public API. Implemented responsive UI with weather icons, humidity, and wind speed display.</p>
       <p><strong>Tech Stack:</strong>HTML, CSS, and JavaScript,API</p>
       <div class="project-links">
-        <a href="#" target="_blank">Live Demo</a>
-        <a href="#" target="_blank">GitHub</a>
+        <a href="https://arushivyas1.github.io/Weather/">Live Demo</a>
+        <a href="https://github.com/ArushiVyas1/Weather.git" target="_blank">GitHub</a>
     
 
     <!-- Repeat for more projects -->
@@ -144,6 +144,39 @@
     </div>
      
     </div>
+    <div class="project-card">
+        <h3>Random Password Generator</h3>
+        <p>A lightweight and user-friendly web application that generates secure, random passwords containing a mix of uppercase letters, lowercase letters, numbers, and special symbols. The app features a simple interface with the ability to generate passwords and quickly copy them to the clipboard.</p>
+              <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript & FontAwesome(for icons)</p>
+
+      <div class="project-links">
+        <a href="https://arushivyas1.github.io/Random-password-generator/">Live Demo</a>
+        <a href="https://github.com/ArushiVyas1/Random-password-generator.git " target="_blank">GitHub</a>
+      </div>
+    </div>
+
+       <div class="project-card">
+        <h3>Chat Application</h3>
+        <p>This is a static Chat Application built using express.js and mongodb.It consists of chats that you can add,edit,delete which also reflects in database.</p>
+              <p><strong>Tech Stack:</strong> Express.js, mongodb</p>
+
+      <div class="project-links">
+        <a href="https://github.com/ArushiVyas1/Chat_Application.git" target="_blank">GitHub</a>
+      </div>
+    </div>
+<div class="project-card">
+        <h3>Loader</h3>
+        <p>A sleek and minimal loader built with HTML and CSS, where characters animate one by one — the previous character fades out while the next character pops in, creating a smooth, flowing text animation. This effect is ideal for modern landing pages, loading screens, or splash sections in any web project.</p>
+              <p><strong>Tech Stack:</strong> HTML, CSS</p>
+
+      <div class="project-links">
+        <a href="https://arushivyas1.github.io/Loader/">Live Demo</a>
+        <a href="https://github.com/ArushiVyas1/Loader.git" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+
+
     
 </section>
 
@@ -155,8 +188,8 @@
     <h3>Education</h3>
     <div class="timeline">
   <div class="timeline-item">
-    <span class="timeline-year">2022–2026</span>
-    <p><strong>B.Tech Computer Science</strong> – Amity University Rajasthan</p>
+    <span class="timeline-year">2022-2026</span>
+    <p><strong>B.Tech Computer Science</strong> - Amity University Rajasthan</p>
   </div>
   <div class="timeline-item">
     <span class="timeline-year">2022–2026</span>
@@ -176,17 +209,21 @@
 
     <h3>Internships</h3>
     <div class="timeline">
+      <div class="timeline-item">
+    <span class="timeline-year">June 2025- August 2025</span>
+    <p><strong>Drona Education Pvt. Ltd.</strong> </p>
+    <p>Worked on the company's ongoing project by helping improve different parts of the system. Took part in writing code, fixing bugs, and adding new features as needed. Collaborated with team members to make sure everything worked well together. Learned a lot about the project and contributed to its smooth progress.</p>
+      <p><strong>Tech Stack:</strong> TypeScript, Next.js, React.js, JavaScript, CSS, SCSS</p>
+
+  </div>
  <div class="timeline-item">
-  <span class="timeline-year">April '24 – June '24</span>
+  <span class="timeline-year">April 2024 - June 2024</span>
   <p><strong>Techforce Services</strong></p>
   <p>Worked on IoT-based Smart Home Automation systems using <strong>Blynk</strong>, <strong>Wokwi</strong>, and <strong>Node-RED</strong>. Conducted IoT data analysis to generate actionable insights and detailed reports. Implemented advanced security protocols to identify and mitigate vulnerabilities, enhancing network reliability and safety.</p>
   <p><strong>Tech Stack:</strong> Node-RED, MQTT, Wokwi, Blynk, Arduino</p>
 </div>
 
-  <div class="timeline-item">
-    <span class="timeline-year">2022–2026</span>
-    <p><strong>Minor:</strong> Marketing Management</p>
-  </div>
+  
   
 </div>
 <h3>Tech Skills</h3>
@@ -315,10 +352,14 @@
         <p><strong>Internship: </strong> Techforce Services</p>
         <p><strong>Domain: </strong> IoT</p>
       </div>
-     
+     <div class="timeline-item">
+        <span class="timeline-year">2025</span>
+        <p><strong>Internship: </strong> Drona Education Pvt. Ltd</p>
+        <p><strong>Domain: </strong> Frontend Development</p>
+      </div>
     </div>
   </div>
-  <a href="arushiresume.pdf" download class="btn-primary download-btn">Download PDF</a>
+  <a href="assets/arushiresume.pdf" download class="btn-primary download-btn">Download PDF</a>
 </section>
 
     </main>
